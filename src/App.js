@@ -4,6 +4,8 @@ import About from "./Components/About/About";
 import Projects from "./Components/project/Projects";
 import Get from "./Components/GetInTouch/Get";
 import Footer from "./Components/Footer/Footer";
+import "./app.css";
+
 
 function App() {
   return (

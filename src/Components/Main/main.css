@@ -51,6 +51,8 @@
     border: 6px solid #64FFDA;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .mainImg img{

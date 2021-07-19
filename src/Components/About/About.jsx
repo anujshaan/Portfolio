@@ -14,8 +14,7 @@ export default function About(){
                     Hey again! <br />
                     Here I wanna talk about my educational background,
                     I have done BCA (Bachelor’s in Computer Application)
-                    from BIT Mesra, (Noida Campus)
-                    with 6 CGPA. <br />
+                    from BIT Mesra, (Noida Campus)<br />
                     <br />
                     Currently I am persuing my Master’s degree in Computer
                     Application from NIT Raipur,
