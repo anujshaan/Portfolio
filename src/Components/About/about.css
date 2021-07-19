@@ -1,0 +1,36 @@
+.wrapper{
+    width: 60%;
+    margin: auto;
+    margin-top: 15rem;
+}
+.aboutHeading {
+    color: #CCD6F6;
+    font-size: 32px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutHeading span{
+    color:#64FFDA;
+}
+.aboutHeading p{
+    width: 70%;
+}
+.aboutMainContent{
+    display: flex;
+    margin-top: 7rem;
+    justify-content: space-between;
+}
+.aboutMainContent p{
+    max-width: 50%;
+    color: #8892B0;
+    font-size: 20px;
+}
+.wrapper img{
+    width: 378px;
+    height: 382px;
+    border: 6px solid #64FFDA;
+    cursor: pointer;
+    border-radius: 5px;
+}

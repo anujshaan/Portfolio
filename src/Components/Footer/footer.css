@@ -1,0 +1,42 @@
+.footerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+.footerWrapper h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: #CCD6F6;
+}
+.socialLogo{
+    display: flex;
+    flex-direction: column;
+    color: #64FFDA;
+
+}
+.socialLogo .icons{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.socialLogo .icons:hover{
+    height: 50px;
+    width: 50px;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.copyright span{
+    color: #64FFDA;
+    margin-left: 1rem;
+}
