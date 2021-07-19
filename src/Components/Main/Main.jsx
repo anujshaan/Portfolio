@@ -3,6 +3,10 @@ import "./main.css"
 import maincolor from "../../Img/ascolor.png";
 
 export default function Main(){
+    const downloadFile = () => {
+        window.location.href = "https://drive.google.com/uc?id=1jVYYyrgilNxU-V5zxM-fn02LaZL2NuO8&export=download"
+    
+    }
     return(
         <div className="mainContainer">
             <div className="mainContent">
@@ -17,7 +21,7 @@ export default function Main(){
                     When I ain’t Coding then I am playing videos Games !! 
                 </p>
                 <br /> <br />
-                <button className="resume">Resume</button>
+                <button className="resume" onClick={downloadFile}>Resume</button>
             </div>
             <div className="mainImg">
                 <img src={maincolor} alt="" />

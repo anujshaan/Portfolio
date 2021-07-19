@@ -22,7 +22,9 @@ export default function Projects(){
                     </div>
                 </div>
                 <div className="projectImg">
-                    <img src={project} alt="" />
+                    <a href="https://github.com/anujshaan/thesociAL" target="_blank" rel="noreferrer">
+                        <img src={project} alt="" />
+                    </a>
                 </div>
             </div>
                 <div className="showMore">

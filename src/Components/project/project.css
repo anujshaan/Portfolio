@@ -35,7 +35,7 @@
     color: #8892B0;
     width: 538px;
     height: 150px;
-    position: absolute;
+    position: relative;
     border-radius: 5px;
     z-index: 999;
     margin-top: 3rem;
@@ -43,17 +43,21 @@
 }
 .projectStack{
     display: flex;
-    margin-top: 17rem;
-    justify-content: space-between;
-    width: 100%;
+    margin-top: 3rem;
+    width: 50%;
     color: #64FFDA;
     font-size: 18px;
 }
 .projectStack p{
     margin-right: 2rem;
 }
+.projectImg{
+    position: relative;
+    left: -9em;
+}
+
 .projectImg img{
-    width: 755px;
+    width: 744px;
     height: 419px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
