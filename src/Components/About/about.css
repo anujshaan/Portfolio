@@ -27,10 +27,23 @@
     color: #8892B0;
     font-size: 20px;
 }
-.wrapper img{
+.aboutImg{
     width: 378px;
     height: 382px;
     border: 6px solid #64FFDA;
+    overflow: hidden;
+}
+.aboutImg img{
+    width: 378px;
+    height: 382px;
     cursor: pointer;
     border-radius: 5px;
+    -webkit-transition: all 1s ease;
+    transition: all 0.5s ease;
+    filter:grayscale(100%);
+}
+.aboutImg img:hover{
+    filter: none;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
 }

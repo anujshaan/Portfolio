@@ -45,12 +45,26 @@
     color: #0A192F;
     font-weight: 500;
 }
-.mainImg img{
+.mainImg{
     width: 418px;
     height: 726px;
     border: 6px solid #64FFDA;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mainImg img{
+    width: 418px;
+    height: 726px;
     padding:0 2rem;
     padding-top: 2rem;
-    border-radius: 10px;
+    filter:grayscale(100%);
     cursor: pointer;
+    -webkit-transition: all 1s ease;
+    transition: all 0.5s ease;
+}
+.mainImg img:hover{
+    filter: none;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
 }

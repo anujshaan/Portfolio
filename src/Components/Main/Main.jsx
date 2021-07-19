@@ -1,15 +1,8 @@
-import React,{ Component } from "react";
-// import { render } from "react-dom";
+
 import "./main.css"
-import mainbw from "../../Img/asbw.png";
 import maincolor from "../../Img/ascolor.png";
 
-class Main extends Component{
-    state = {
-        img:mainbw
-    };
-
-    render(){
+export default function Main(){
     return(
         <div className="mainContainer">
             <div className="mainContent">
@@ -27,20 +20,8 @@ class Main extends Component{
                 <button className="resume">Resume</button>
             </div>
             <div className="mainImg">
-                <img
-                    src={this.state.img}
-                    onMouseEnter={() => {
-                        this.setState({img: maincolor});
-                    }}
-                    onMouseOut={() => {
-                    this.setState({img: mainbw});
-                    }}
-                    alt="anuj shaan"
-                />
+                <img src={maincolor} alt="" />
             </div>
         </div>
     )
-    }
-}    
-
-export default Main;
+}
