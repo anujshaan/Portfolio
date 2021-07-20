@@ -24,7 +24,6 @@ export default function Get (){
                 trigger={buttonPopup} 
                 setTrigger = {setButtonPopup}
             >
-                
             </Popup>
             
         </div>
