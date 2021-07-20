@@ -15,7 +15,7 @@ export default function Navbar(){
                     <li>Projects</li>
                     <li>Contacts</li>
                 </ul>
-                    <div className="blog-button">My Blog</div>
+                    <a href="https://daydreamer.netlify.app/" target="_blank" rel="noreferrer"><div className="blog-button">My Blog</div></a>
             </div>
         </div>
     )

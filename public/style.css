@@ -15,3 +15,8 @@ body,html{
 hr{
     border-color:#64FFDA;
 }
+a{
+    text-decoration: none;
+    background-color: none;
+    color: inherit;
+}

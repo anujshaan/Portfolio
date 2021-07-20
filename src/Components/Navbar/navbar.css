@@ -28,6 +28,9 @@
 .navbar ul li:hover{
     border-bottom: 1px solid #64FFDA;
 }
+.navbar a{
+    text-decoration: none;
+}
 .navbar .blog-button{
     color: #64FFDA;
     border: 1px solid #64FFDA;

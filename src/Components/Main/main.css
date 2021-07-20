@@ -45,6 +45,20 @@
     color: #0A192F;
     font-weight: 500;
 }
+.mainContent .buyMe button{
+    color: #0A192F;
+    background-color: #64FFDA;
+    border: none;
+    font-size: 25px;
+    padding: 1rem 2rem;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+.mainContent .buyMe button:hover{
+    color: #64FFDA;
+    background-color: #0A192F;
+    border: 2px solid #64FFDA;
+}
 .mainImg{
     width: 418px;
     height: 726px;

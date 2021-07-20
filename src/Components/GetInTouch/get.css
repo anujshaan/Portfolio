@@ -23,7 +23,7 @@
     text-align: justify;
     margin-bottom: 3rem;
 }
-.getInTouchWrapper button{
+.getInTouchWrapper .mailMe{
     font-size: 25px;
     border: 2px solid #64FFDA;
     color: #64FFDA;
@@ -35,4 +35,8 @@
 .getInTouchWrapper button:hover{
     background-color: #64FFDA;
     color: #0A192F;
+}
+.popupAnimation{
+    
+    transition: all 1s ease-in-out;
 }
