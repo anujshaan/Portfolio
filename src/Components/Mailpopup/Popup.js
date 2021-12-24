@@ -13,9 +13,8 @@ function Popup(props) {
       });
       e.target.reset();
     }
-    return (props.trigger)?(
+    return (props.trigger) && (
         <div className="popup">
-            <div className="innerPopup">
                 <button className="closeBtn"
                     onClick={()=>props.setTrigger(false)}
                 >x</button>
@@ -23,12 +22,11 @@ function Popup(props) {
                     <input type="text"placeholder="Full name" name="name" required/>
                     <input type="email" placeholder="Your Email" name="email" required/>
                     <input type="text" placeholder="Subject" name="subject" required/>
-                    <textarea name="message" id="" cols="20" rows="5" required></textarea>
-                    <button type="submit">Send</button>
+                    <textarea name="message" id="" cols="20" rows="5" placeholder="Write your message...."required></textarea>
+                    <button className='mailSendBtn' type="submit">Send</button>
                 </form>
-            </div>
         </div>
-    ):"";
+    );
 }
 
 export default Popup;

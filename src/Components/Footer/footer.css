@@ -1,12 +1,12 @@
 hr{
     margin: 5rem auto;
-    width: 60%;
+    width: 70%;
 }
 .footerWrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 .footerWrapper h1{
@@ -18,24 +18,25 @@ hr{
     display: flex;
     flex-direction: column;
     color: #64FFDA;
-
 }
 .socialLogo .icons{
     width: 40px;
     height: 40px;
-    margin-bottom: 3rem;
+    margin: 2rem auto;
     cursor: pointer;
+    
+}
+.socialLogo a{
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
-.socialLogo .icons:hover{
-    height: 50px;
-    width: 50px;
+.socialLogo a:hover{
     -webkit-transform:scale(1.1);
-    transform:scale(1.1);
+    transform:scale(1.5);
 }
 .copyright{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
@@ -43,4 +44,20 @@ hr{
 .copyright span{
     color: #64FFDA;
     margin-left: 1rem;
+}
+
+@media (max-width:768px) {
+    .footerWrapper{
+        flex-direction: column;
+    }
+    .footerWrapper h1{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .socialLogo{
+        flex-direction: row;
+    }
+    .socialLogo .icons{
+        margin:30px;
+    }
 }

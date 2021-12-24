@@ -6,8 +6,8 @@ export default function About(){
         <div className="wrapper">
                 <div className="aboutHeading"> 
                     <span>#1</span> 
-                    About Me 
-                    <p><hr /></p>
+                        About Me 
+                    <hr />
                 </div>
             <div className="aboutMainContent">
                 <p>

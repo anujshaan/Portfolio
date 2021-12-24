@@ -1,5 +1,5 @@
 .projectWrapper{
-    width: 60%;
+    width: 70%;
     margin:auto;
     margin-top: 15rem;
 }
@@ -21,7 +21,7 @@
 .project{
     display: flex;
     align-items: flex-start;
-    margin-top: 7rem;
+    margin-top: 4rem;
     justify-content: space-between;
 }
 .projectTitle{
@@ -73,8 +73,7 @@
 }
 .showMore button{
     cursor: pointer;
-    width: 232px;
-    height: 73px;
+    padding: 1rem 2rem;
     color: #64FFDA;
     border: 2px solid #64FFDA;
     font-size:25px;
@@ -86,4 +85,31 @@
     background-color: #64FFDA;
     color:#0A192F;
     font-weight: 500;
+}
+
+
+@media (max-width:768px) {
+    .project{
+        flex-direction: column;
+    }
+    .projectDesc{
+        width: 300px;
+        height: auto;
+    }
+    .projectStack{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projectImg{
+        left: 0;
+    }
+    .projectImg img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .showMore button{
+        width: 100%;
+        padding: 8px 0;
+    }
 }

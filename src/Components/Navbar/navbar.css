@@ -23,6 +23,7 @@
 }
 .navbar ul li{
     margin-right: 10rem;
+    border-bottom: 1px solid #0A192F;
     cursor: pointer;
 }
 .navbar ul li:hover{
@@ -44,4 +45,17 @@
     background-color: #64FFDA;
     color: #0A192F;
     font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .logo{
+        height: 70px;
+        width: 50px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar .blog-button{
+        margin-top: 20px;
+    }
 }

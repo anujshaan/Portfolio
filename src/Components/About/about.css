@@ -1,5 +1,5 @@
 .wrapper{
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-top: 15rem;
 }
@@ -14,7 +14,7 @@
 .aboutHeading span{
     color:#64FFDA;
 }
-.aboutHeading p{
+.aboutHeading hr{
     width: 70%;
 }
 .aboutMainContent{
@@ -23,7 +23,7 @@
     justify-content: space-between;
 }
 .aboutMainContent p{
-    max-width: 50%;
+    width: 50%;
     color: #8892B0;
     font-size: 20px;
 }
@@ -47,4 +47,21 @@
     filter: none;
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
+}
+
+@media (max-width:768px) {
+    hr{
+        display: none;
+    }
+    .aboutMainContent{
+        flex-direction: column-reverse;
+    }
+    .aboutMainContent p{
+        margin-top: 30px;
+        width: 100%;
+        text-align: justify;
+    }
+    .aboutImg{
+        width: 300px;
+    }
 }

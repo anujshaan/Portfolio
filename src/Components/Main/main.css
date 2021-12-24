@@ -1,5 +1,5 @@
 .mainContainer{
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-top: 2rem;
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 .mainContent{
-    max-width: 50%;
+    width: 50%;
 }
 .mainContent .note{
     font-size: 16px;
@@ -43,18 +43,19 @@
 .mainContent .resume:hover{
     background-color: #64FFDA;
     color: #0A192F;
-    font-weight: 500;
 }
-.mainContent .buyMe button{
+.mainContent .buyMe{
     color: #0A192F;
     background-color: #64FFDA;
     border: none;
     font-size: 25px;
     padding: 1rem 2rem;
     margin-left: 3rem;
+    font-weight: 300;
+    border-radius: 5px;
     cursor: pointer;
 }
-.mainContent .buyMe button:hover{
+.mainContent .buyMe:hover{
     color: #64FFDA;
     background-color: #0A192F;
     border: 2px solid #64FFDA;
@@ -83,4 +84,39 @@
     filter: none;
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
+}
+
+@media (max-width:768px) {
+    .mainContainer{
+        flex-direction: column-reverse;
+    }
+    .mainContent{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mainContent h1{
+        font-size: 45px;
+    }
+    .mainContent h2{
+        margin: 20px 0;
+        font-size: 24px;
+    }
+    .mainContent .content{
+        text-align: justify;
+    }
+    .mainContent .resume{
+        width: 100%;
+        padding: 8px 0;
+        margin-bottom: 20px;
+    }
+    .mainContent .buyMe{
+        width: 100%;
+        padding: 8px 0;
+        margin-left: 0;
+    }
+    .mainImg{
+        width: 300px;
+        height: 500px;
+    }
 }

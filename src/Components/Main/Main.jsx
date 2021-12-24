@@ -6,6 +6,9 @@ export default function Main(){
     const downloadFile = () => {
         window.location.href = "https://drive.google.com/uc?id=1jVYYyrgilNxU-V5zxM-fn02LaZL2NuO8&export=download"
     }
+    const buyMeCoffee = () => {
+        window.location.href= "https://www.buymeacoffee.com/anujshaan"
+    }
     return(
         <div className="mainContainer">
             <div className="mainContent">
@@ -21,13 +24,10 @@ export default function Main(){
                 </p>
                 <br /> <br />
                 <button className="resume" onClick={downloadFile}>Resume</button>
-                <a className="buyMe" 
-                    href="https://www.buymeacoffee.com/anujshaan"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <button>Buy me a Coffee </button>
-                </a>
+    
+                <button className="buyMe" onClick={buyMeCoffee}>
+                    Buy me a Coffee
+                </button>
             </div>
             <div className="mainImg">
                 <img src={maincolor} alt="" />

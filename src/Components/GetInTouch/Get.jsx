@@ -19,7 +19,9 @@ export default function Get (){
             <button 
                 className="mailMe"
                 onClick={()=>setButtonPopup(true)}
-            >Mail Me</button>
+            >
+                Mail Me
+            </button>
             <Popup className="popupAnimation"
                 trigger={buttonPopup} 
                 setTrigger = {setButtonPopup}
