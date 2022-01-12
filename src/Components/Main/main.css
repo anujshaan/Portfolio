@@ -20,13 +20,12 @@
     font-weight: 400;
 }
 .mainContent h2{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 300;
     color: #8892B0;
 }
 .mainContent h2 span{
     color: #CCD6F6;
-    font-size:30px;
 }
 .mainContent .content{
     font-size: 20px;
